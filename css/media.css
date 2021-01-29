@@ -1,0 +1,61 @@
+@media (max-width:768px) {
+    .burger-menu {
+        display: block;
+    }
+    .header-menu {
+        display: none;
+    }
+    .content .product-slider__cards .product-slider__cards__container {
+        max-width: 300px;
+        padding: 30px 10px;
+    }
+    .container .content.content__header {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container .content .header-button-section {
+        margin-top: 20px;
+    }
+    .slider_container .slider_container__header {
+        margin: 50px 0 50px 20px;
+    }
+}
+
+@media (max-width:515px) {
+    .container .content .search-block-header .search-block-header__input {
+        min-width: 280px;
+    }
+    .search-block-header {
+        margin-top: 60px;
+    }
+    .container .content .search-block-header__contacts a {
+        font-size: 14px;
+    }
+    .burger-menu {
+        position: fixed;
+        width: 100%;
+        background: white;
+        height: 60px;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+    .burger-menu .burger-menu_button {
+        top: 0;
+        right: 0;
+        border-radius: 0;
+        background-color: #CDDDE2;
+    }
+    .burger-menu .burger-menu_button:hover {
+        background-color: #CDDDE2;
+    }
+    .burger-menu__logo {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+}
